@@ -78,3 +78,24 @@
 .nav-items a img{
     width: 30px;
 }
+
+.links-container{
+    width:100%;
+    display: flex;
+    padding: 10px 10vw;
+    justify-content: center;
+    list-style: none;
+    border-top: 1px solid #d1d1d1;
+}
+
+.link{
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 5px;
+    /* remove the underline */
+    text-decoration: none;
+    color: #383838;
+    opacity: 0.5;
+    /* transition for smooth effect */
+    transition: .5s;
+}
