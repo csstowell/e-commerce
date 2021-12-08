@@ -99,3 +99,10 @@
     /* transition for smooth effect */
     transition: .5s;
 }
+
+
+
+/* hover selector effect to card */
+.link:hover{
+    opacity: 1;
+}
