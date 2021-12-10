@@ -33,5 +33,4 @@ const CreateNav = () => {
 
 
 //call the CreateNav function
-
 CreateNav();
