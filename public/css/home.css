@@ -1,4 +1,5 @@
 @import 'nav.css';
+@import 'footer.css';
 
 .hero-section{
     width: 100%;
@@ -203,10 +204,16 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%, -50%);
+    transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
     font-size: 50px;
     text-transform: capitalize;
 }
 
+
+/* use nth child to select nth number of elements */
+.collection:nth-child(3){
+    grid-column: span 2; /* two photos */
+    margin-bottom: 10px;
+}
