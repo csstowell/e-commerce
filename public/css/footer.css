@@ -73,3 +73,19 @@ footer{
     margin-left: 20px;
     text-transform: capitalize;
 }
+
+/* set first links margin left to zero */
+.social-link:nth-child(1){
+    margin-left: 0;
+}
+
+.footer-credit{
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.2);
+}
