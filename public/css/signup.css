@@ -49,3 +49,8 @@ input[type="email"]{
     box-shadow: 0 4px 10px rgba(0,0,0, 0.1);
     font-family: 'roboto', sans-serif;
 }
+
+
+::placeholder{
+    color: #383838;
+}
